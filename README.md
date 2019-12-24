@@ -1,5 +1,5 @@
 # PyPaint
-A Paint made in Python, pygame and tkinter.
+A Paint made with Python, pygame and tkinter.
 # PyPaintTools:
     - SHIFT -> Decrease the size of the brush;
     - ALT -> Increase the size of the brush;
