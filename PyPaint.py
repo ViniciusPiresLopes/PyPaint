@@ -204,16 +204,16 @@ def open_RGB_menu():
         root.destroy()
 
     def display_preview():
-        R = scale1.get()
-        G = scale2.get()
-        B = scale3.get()
+        R = input_R.get()
+        G = input_G.get()
+        B = input_B.get()
         colorval = "#%02x%02x%02x" % (R, G, B)
         canvas.itemconfig(rectangle, fill=colorval)
 
     # Window
     root = tk.Tk()
     root.geometry("250x150")
-    # root.resizable(0, 0)
+    root.resizable(0, 0)
     root.title("Set RGB")
 
     # Text
